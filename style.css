@@ -1,0 +1,34 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+button {
+    margin: 20px;
+    padding: 5rem;
+    border: 5px solid lightgray;
+    border-radius: 40%;
+    background-color: red;
+    cursor: pointer;
+}
+
+button:active {
+    border: 6px solid darkgray;
+}
+
+.col-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
