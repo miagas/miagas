@@ -12,6 +12,10 @@ section {
     width: 100%;
 }
 
+audio {
+    visibility: hidden;
+}
+
 button {
     margin: 20px;
     padding: 5rem;
